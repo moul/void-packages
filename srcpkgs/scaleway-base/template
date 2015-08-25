@@ -1,0 +1,15 @@
+# Template file for 'scaleway-base'
+pkgname=scaleway-base
+version=1
+revision=1
+homepage="http://www.scaleway.com/"
+short_desc="Void Linux Scaleway base files"
+maintainer="Manfred Touron <mtouron@scaleway.com>"
+license="Public Domain"
+
+only_for_archs="armv6l armv6l-musl armv7l armv7l-musl"
+depends="virtual?ntp-daemon"
+
+do_install() {
+	:
+}
