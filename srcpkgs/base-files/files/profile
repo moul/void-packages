@@ -9,6 +9,10 @@ export PATH
 # Set default umask
 umask 022
 
+# Set default prompt
+PS1='\h:\w\$'
+export PS1
+
 # Load profiles from /etc/profile.d
 if [ -d /etc/profile.d/ ]; then
 	for f in /etc/profile.d/*.sh; do
