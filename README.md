@@ -1,5 +1,7 @@
 ## The XBPS source packages collection
 
+[![GuardRails badge](https://badges.production.guardrails.io/moul/void-packages.svg)](https://www.guardrails.io)
+
 This repository contains the XBPS source packages collection to build binary packages
 for the Void Linux distribution.
 
